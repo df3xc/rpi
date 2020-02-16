@@ -1,4 +1,4 @@
-rpi
+rpi direct GPIO access using C Programming Language
 ===
 
 Raspberry Pi Public code
