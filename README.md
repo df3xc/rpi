@@ -1,4 +1,4 @@
-Raspberry PI direct GPIO access using C programming language
+Raspberry PI direct GPIO access using C / C# programming language
 ===
 
 Raspberry Pi Public code
