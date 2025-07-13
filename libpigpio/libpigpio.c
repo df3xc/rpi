@@ -10,15 +10,17 @@
 // Periphal Base Address depends on RPI Model
 
 // RPI Model B+ V1.2 (2014)
-//#define BCM2708_PERI_BASE 0x20000000
+//#define BCM_PERI_BASE 0x20000000
 
 // RPI 3 Model B+ (2017)
-//#define BCM2708_PERI_BASE 0x3F000000
+//#pragma message( "Compiling for Raspberry PI3" )
+//#define BCM_PERI_BASE 0x3F000000
 
 // RPI 4 Model B (2018)
-#define BCM2708_PERI_BASE 0xFE000000
+#pragma message( "Compiling for Raspberry PI4" )
+#define BCM_PERI_BASE 0xFE000000
 
-#define GPIO_BASE (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */
+#define GPIO_BASE (BCM_PERI_BASE + 0x200000) /* GPIO controller */
 
 #include <stdio.h>
 #include <string.h>
